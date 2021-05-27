@@ -18,9 +18,6 @@ export default function Header(props) {
                         <li className="nav-item">
                             <Link className="nav-link" to="/about">About Us</Link>
                         </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/contact">Contact Us</Link>
-                        </li>
                     </ul>
                     { props.searchbar ? <form className="d-flex">
                         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
